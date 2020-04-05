@@ -1,0 +1,117 @@
+html,body{
+  height: 100%;
+}
+body{
+  margin: 0;
+}
+
+.main{
+  height: 100%;
+}
+
+.el-header, .el-footer {
+    background-color: #B3C0D1;
+    color: #333;
+    text-align: center;
+    line-height: 60px;
+  }
+  
+  .el-aside {
+    background-color: #D3DCE6;
+    color: #333;
+  }
+  
+  .el-main {
+    background-color: #E9EEF3;
+    color: #333;
+  }
+
+  .content{
+    overflow: hidden;
+  }
+
+  .request-tab{
+    height: 100%;
+  }
+
+  .request-tab .el-tabs__new-tab{
+    background-color: #67C23A;
+    border-color: #67C23A;
+    margin: 10px;
+    color: #FFF;
+  }
+
+  .request-tab .el-tabs__new-tab:hover{
+    background: #85ce61;
+    border-color: #85ce61;
+    color: #FFF;
+  }
+
+  .request-tab .el-tabs__content{
+    width: 100%;
+    height: calc(100% - 40px);
+    box-sizing: border-box;
+    overflow: auto;
+  }
+
+  .input-with-select .el-select .el-input {
+    width: 130px;
+  }
+  .input-with-select .el-input-group__prepend {
+    background-color: #fff;
+  }
+
+  .input-with-select .el-input-group__prepend {
+    background-color: #f5f7fa;
+}
+
+
+.input-with-select .el-input-group__prepend:hover {
+  background-color: #fbfbfb;
+}
+
+.req-rep{
+  margin-top: 20px;
+}
+
+.req-rep .el-tabs__item{
+  color: #666;
+}
+
+.req-rep .el-collapse{
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+
+.req-rep .el-collapse-item__header{
+  background: #f5f7fa;
+    font-weight: bold;
+    color: #909399;
+    padding: 0 15px;
+    border-radius: 4px;
+}
+
+.req-rep .el-collapse-item__wrap{
+  border-bottom-color: transparent;
+}
+
+.req-data{
+  margin-top: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 14px;
+  height: 14px;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 6px;
+  border-radius: 7px;
+  border: 4px solid transparent;
+  background-color: hsla(0,0%,47%,.4);
+  background-clip: padding-box;
+}
